@@ -1,0 +1,24 @@
+.card {
+  @apply max-w-md m-8 mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl;
+}
+.img {
+  @apply object-cover w-full h-48 md:w-48;
+}
+.title {
+  @apply text-sm font-semibold tracking-wide text-indigo-500 uppercase;
+}
+.heading {
+  @apply block mt-1 text-lg font-medium leading-tight text-black hover:underline;
+}
+.content {
+  @apply text-gray-500 mt-2;
+}
+.resp-card {
+  @apply md:flex;
+}
+.srink {
+  @apply md:flex-shrink-0;
+}
+.card-p-8 {
+  @apply p-8;
+}
