@@ -1,0 +1,18 @@
+.storybook-button {
+  @apply text-white rounded-lg shadow-md  focus:ring-opacity-75;
+}
+.storybook-button--primary {
+  @apply py-2 px-4 bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+.storybook-button--secondary {
+  @apply py-4 px-6 bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400;
+}
+.storybook-button--small {
+  @apply font-semibold py-2 px-4;
+}
+.storybook-button--medium {
+  @apply font-bold py-4 px-6;
+}
+.storybook-button--large {
+  @apply font-bold py-6 px-8;
+}
